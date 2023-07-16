@@ -1,0 +1,41 @@
+*{
+ box-sizing: border-box;
+ margin: 0.5rem;
+}
+
+.box p{
+ color: red;
+}
+/*1 parenti kutu class olan tüm p leri seçer */
+.box > p {
+ color: blue;
+}
+
+.box > h1{
+ color: purple;
+}
+
+.box ~ p{
+ color: green;
+}
+
+
+.box + p {
+ color:fuchsia;
+}
+
+p + h3{
+   font-size: 1rem;
+   margin: 3rem;
+   width: 5rem;
+   height: 5rem;
+   border: 1px solid red;
+   border-radius: 2.5rem;
+   text-align: center;
+   padding-top: 3.3rem;
+}
+
+p+ h3:hover {
+   outline: 3px solid purple;
+   outline-offset: 3px;
+}

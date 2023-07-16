@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 10px;
+}
+.div {
+    background-color: aliceblue;
+    /*margin-bottom: 10px;
+    margin-top: 20px;*/
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    margin: 10px auto;
+    border: 10px solid red;
+}
+.nav li {
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.nav {
+    text-align: center;
+}
+h2{
+    margin-bottom: 20px;
+}
+.nav li:hover {
+    cursor: pointer;
+    background-color: rgba(red, green, blue, alpha);
+    font-weight: 700;
+    color: aliceblue;
+}
+

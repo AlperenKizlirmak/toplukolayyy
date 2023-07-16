@@ -1,0 +1,87 @@
+body{
+    font: 14px;
+    color: #333;
+}
+.clearfix {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  font-size: 0;
+  clear: both;
+  visibility: hidden;
+}
+.container {
+    width: 900px;
+    margin: auto;
+}
+header {
+    padding: auto;
+    margin: 25px;
+}
+.header-in-cntr {
+  width: 950px;
+  background-color: #c92028;
+}
+menu {
+    width: 429px;
+    height: 45px;
+    background:url(images/header_bg.png) no-repeat;
+    color: #fff;
+    float: left;
+    padding: 40px 0 0 15px;
+}
+.logo{
+    width: 207px;
+    height: 52px;
+    margin: 25px 15px 0;
+    background:url(images/logo.png) no-repeat;
+    float: right;
+    text-indent: -9999px;
+}
+
+.list-menu li {
+ display: inline;
+ float:left;
+ font-weight: bold;
+ padding: 3px;
+ margin-right: 7px;
+ list-style: none;
+}
+.li .list-menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+section {
+    display: block;
+}
+.banner {
+    padding: 9px;
+    border:1px solid #ccc;
+    margin: 15px 0;
+}
+figure {
+    display:block;
+}
+.banner-img {
+    width: 215px;
+    height: 285px;
+    margin-right: 35px;
+    margin-left: 10px;
+    float: left;
+}
+article {
+    display: block;
+}
+article p{
+  line-height: 1.5em;
+}
+.banner-text {
+    width: 670px;
+    margin-top:1370px;
+    float: left;
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px #000;
+}

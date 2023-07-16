@@ -1,0 +1,19 @@
+table {
+    opacity: 0.8;
+    margin-top: 90px;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;    
+    background-color: pink;
+    height: 500px;
+    width: 500px;
+    padding: 50px;
+    border: 500px;
+    border-color: white;
+}
+table, th, td {
+    border:1px solid black;
+  }
+  body {
+    background-color: red;
+  }
